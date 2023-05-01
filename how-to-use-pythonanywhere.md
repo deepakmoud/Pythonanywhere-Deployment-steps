@@ -74,6 +74,8 @@ The upgraded packages roughly takes some 110+ MB
 **d.** You can now accept the default path and filename for the python code for flask app (I chose default), or you can provide details as per your preference.
     
 ![Create webapp](images/14-web-app-6.png)
+
+You need to change path
     
 **e.** Your web app is now deployed and active (with a default code). For the free account, to keep your web app active, you need to click the **Run until 3 months from today** atleast once before the 3 months expire.
    
@@ -101,7 +103,7 @@ To view/edit the default code, go to Files and navigate to the appropriate file 
 
 #### 4. Upload ML model files (if/as applicable)
 
-Upload any ML model files (e.g. the dv.bin for the DictVectorizer and model1.bin for the LogisticRegression trained model - as per homework for ML Zoomcamp course Week#5)
+Upload any ML model files (e.g. the dv.bin for the DictVectorizer and model1.bin for the LogisticRegression trained model - as per homework for ML )
 
 Click on **Files**, go to the path where the python code for ther web has been deployed (in this example - mysite), click **Upload a file** and upload your model file(s) as applicable.
 
