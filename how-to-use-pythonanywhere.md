@@ -1,11 +1,4 @@
-## How to use PythonAnywhere to host your python web app for free
 
-#### Background: 
-In the Machine Learning Zoomcamp course conducted by Alexey Grigorev (https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) in Week/Session #5, it is required to deploy a web service which can accept user provided customer data nad using a trained ML model, predict whether the customer will churn or not.
-
-For this, participants can either deploy the web service locally on their machine, inside a docker container on their machine, or in Cloud (AWS, Azure. Google etc.).
-
-There is one more option that was suggested - which is using PythonAnywhere, which provides users to host python based web application for free. This option can especially be useful when working on the Project 1 as part of this course, and hence I thought of exploring this option and preparing this reference for others to follow if they wish to use this option.
 
 #### 1. Signup
    
