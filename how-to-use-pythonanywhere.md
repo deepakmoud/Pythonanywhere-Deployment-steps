@@ -21,7 +21,11 @@ You will see the PythonAnywhere Dashboard giving you a summary.
 ![Dashboard](images/5-sign-up-5.png)
 
 #### 2. Prepare the environment
+Uploading your code to PythonAnywhere
+Assuming your code is already on a code sharing site like GitHub or Bitbucket, you can just clone it from a Bash Console:
 
+# for example
+$ git clone https://github.com/myusername/myproject.git
 **a.** Many of the popular python libraries are pre-installed. You can check that by opening the Bash console. 
 
 To open the Bash console, on the Dashboard page under Consoles, under New console click **$ Bash**. This will open the bash console on the underlying linux machine.
