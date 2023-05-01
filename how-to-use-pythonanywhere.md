@@ -31,6 +31,8 @@ To open the Bash console, on the Dashboard page under Consoles, under New consol
 **b.** Type the command ```pip list``` to see the pre-installed python packages and their versions.
    
 ![Pre-installed packages](images/6-pip-list.png)
+or 
+![git clone paste github reposotory link](images/6-pip-list.png)
    
 **c.** For the Machine Learning Zoomcamp course Week#5, it is required to install scikit-learn version 1.0 and hence, you will need to upgrade the existing scikit-learn package.
     
