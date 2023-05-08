@@ -97,8 +97,8 @@ Write flask_app to app and change path also from mysite to repository name
 
 ![change WSGI FILE ENTRY](images/wsgi.png)
 
-Write in project_home to your GitHub file name
-![change path](images/Picture1.png)
+Write in project_home to your GitHub file name in app.py
+![change path in app.py](images/Picture1.png)
 **e.** Your web app is now deployed and active (with a default code). For the free account, to keep your web app active, you need to click the **Run until 3 months from today** atleast once before the 3 months expire.
    
 Make a note of the URL for your web app (this is typically https://yourid.pythonanywhere.com)
