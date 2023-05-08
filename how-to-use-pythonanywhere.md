@@ -109,33 +109,5 @@ Make a note of the URL for your web app (this is typically https://yourid.python
    
 ![Default webapp](images/16-web-app-8.png)
    
-To view/edit the default code, go to Files and navigate to the appropriate file in the path (if you chose the default then it is mysite/flask_app.py)
-   
-![Default webapp code step1](images/17-web-app-9.png)
-   
-![Default webapp code step2](images/18-web-app-10.png)
-   
-![Default webapp code step3](images/19-web-app-11.png)
-   
-**g.** Now edit the default code and update it with appropriate code for your task, click on **Save**.
- 
-![Custom webapp code](images/20-web-app-13.png)
- 
-**h.** Click ![reload](images/21-reload-web-app-14.png) to reload the web app from the code you updated and saved.
 
-#### 4. Upload ML model files (if/as applicable)
-
-Upload any ML model files (e.g. the dv.bin for the DictVectorizer and model1.bin for the LogisticRegression trained model - as per homework for ML )
-
-Click on **Files**, go to the path where the python code for ther web has been deployed (in this example - mysite), click **Upload a file** and upload your model file(s) as applicable.
-
-![Upload model files](images/9-upload-model-files.png)
-
-#### 5. Test your Web App
- 
-You can now test whether your Web App is running successfully (now being hosted on PythonAnywhere). From your local machine (or from anywhere, where you have python installed, requests package installed and having internet access) execute the code to test your Web App.
- 
-Below is sample test scenario for the homework of Week5 of ML Zoomcamp course.
- 
-![Test webapp](images/22-request.png)
 
