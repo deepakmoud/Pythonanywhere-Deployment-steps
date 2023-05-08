@@ -1,7 +1,9 @@
 
 
 #### 1. Signup
-   
+  Step 1 : login in python anywhere
+  
+  ![Signup](images/login_pythonanywhere.png)
 **a.** Go to PythonAnywhere website at https://www.pythonanywhere.com/ and click on **Pricing & signup**.
 
 ![Signup](images/1-sign-up-1.png)
