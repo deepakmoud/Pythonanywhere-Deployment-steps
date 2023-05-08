@@ -93,7 +93,7 @@ Go to Code section and click on Source codes and rename (mysite to your GitHub f
 ![change path](images/code_section.png)
 
 NOW go to WSGI configuration file 
-Write flask_app to app
+Write flask_app to app and change path also from mysite to repository name
 
 ![change WSGI FILE ENTRY](images/wsgi.png)
 
