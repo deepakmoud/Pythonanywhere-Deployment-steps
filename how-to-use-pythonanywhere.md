@@ -37,36 +37,34 @@ Assuming your code is already on a code sharing site like GitHub or Bitbucket, y
 
 
 
-# for example
-$ git clone https://github.com/myusername/myproject.git
-
-**a.** Many of the popular python libraries are pre-installed. You can check that by opening the Bash console. 
+ 
 STEP 3:
 
 To open the Bash console, on the Dashboard page under Consoles, under New console click **$ Bash**. This will open the bash console on the underlying linux machine.
    
 ![Bash console](images/6-bash-console.png)
 
-STEP $:
+STEP 4:
 Copy your GitHub file
 ![GITHUB REPOSITORY](images/github.png)
+
+STEP 5:
+Write on bash git clone and past your GitHub file location
+![GIT clone](images/gitclone.png)
+
+# for example
+$ git clone https://github.com/myusername/myproject.git
+
+**a.** Many of the popular python libraries are pre-installed. You can check that by opening the Bash console.
 **b.** Type the command ```pip list``` to see the pre-installed python packages and their versions.
    
 ![Pre-installed packages](images/6-pip-list.png)
 or 
 ![git clone paste github reposotory link](images/6-pip-list.png)
    
-**c.** For the Machine Learning Zoomcamp course Week#5, it is required to install scikit-learn version 1.0 and hence, you will need to upgrade the existing scikit-learn package.
-    
-*Note: PythonAnywhere also allows creating virtual environments, however when I tried using that and installed all the required packages in it, it was consuming some 380 MB of file space out of max 512 MB available for free account. Hence I do not recommend using that at the moment*
-    
-While in the Bash console, use the command ```pip install --upgrade scikit-learn==1.0```
-    
-![Upgrade scikit-learn](images/7-scikit-learn-upgrade.png)
-    
-The upgraded packages roughly takes some 110+ MB
-    
-![File quota after package upgrade](images/8-file-quota-after-scikit-learn-upgrade.png)
+STEP 6:
+Go to Files section
+![GO TO FILE SECTION](images/filesection.png)
     
 
 #### 3. Create/Deploy your Web App
@@ -90,7 +88,17 @@ The upgraded packages roughly takes some 110+ MB
 ![Create webapp](images/14-web-app-6.png)
 
 You need to change path
-    
+
+Go to Code section and click on Source codes and rename (mysite to your GitHub file)
+![change path](images/code_section.png)
+
+NOW go to WSGI configuration file 
+Write flask_app to app
+
+![change WSGI FILE ENTRY](images/wsgi.png)
+
+Write in project_home to your GitHub file name
+![change path](images/Picture1.png)
 **e.** Your web app is now deployed and active (with a default code). For the free account, to keep your web app active, you need to click the **Run until 3 months from today** atleast once before the 3 months expire.
    
 Make a note of the URL for your web app (this is typically https://yourid.pythonanywhere.com)
