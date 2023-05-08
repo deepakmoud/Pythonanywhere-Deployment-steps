@@ -31,7 +31,7 @@ To open the Bash console, on the Dashboard page under Consoles, under New consol
 Click on Recent Consoles
 ![Bash console](images/console.png)
 
-![Bash console](images/6-bash-console.png)
+
 Uploading your code to PythonAnywhere
 Assuming your code is already on a code sharing site like GitHub or Bitbucket, you can just clone it from a Bash Console:
 
