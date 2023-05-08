@@ -41,11 +41,15 @@ Assuming your code is already on a code sharing site like GitHub or Bitbucket, y
 $ git clone https://github.com/myusername/myproject.git
 
 **a.** Many of the popular python libraries are pre-installed. You can check that by opening the Bash console. 
+STEP 3:
 
 To open the Bash console, on the Dashboard page under Consoles, under New console click **$ Bash**. This will open the bash console on the underlying linux machine.
    
 ![Bash console](images/6-bash-console.png)
-   
+
+STEP $:
+Copy your GitHub file
+![GITHUB REPOSITORY](images/github.png)
 **b.** Type the command ```pip list``` to see the pre-installed python packages and their versions.
    
 ![Pre-installed packages](images/6-pip-list.png)
