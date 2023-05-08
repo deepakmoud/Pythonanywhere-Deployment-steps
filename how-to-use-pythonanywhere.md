@@ -27,7 +27,7 @@ To open the Bash console, on the Dashboard page under Consoles, under New consol
  
  Step 2 :
 Click on Recent Consoles
-! [console](images/console.png)
+![Bash console](images/console.png)
 
 ![Bash console](images/6-bash-console.png)
 Uploading your code to PythonAnywhere
